@@ -1,0 +1,46 @@
+/*SIDEBAR-BUTTON*/
+.menu-icon {
+    position: fixed;
+    top: 10px;
+    left: 10px;
+    width: 90px;
+    height: 90px;
+    cursor: pointer;
+    z-index: 100;
+}
+
+/*SIDEBAR*/
+.sidebar {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #000000;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+    z-index: 99;
+}
+
+.sidebar a {
+    padding: 10px 15px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+    text-align: left;
+}
+
+.sidebar a:hover {
+    color: #f1f1f1;
+}
+
+.sidebar .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}

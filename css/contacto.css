@@ -1,0 +1,43 @@
+/*TIPOGRAFIA - API GOOGLE FONTS*/
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;700&display=swap');
+
+
+/*BODY*/
+body {
+    background-image: url("../images/Background/Fondo_Negro_9.webp");
+    color: #ffffff;
+    font-family: 'Oswald', sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    overflow-x: hidden;
+    padding: 80px 20px;
+}
+
+
+/*SOCIAL-BUTTONS*/
+.social-buttons {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 0;
+}
+
+.social-button {
+    display: inline-block;
+    width: 400px; 
+    height: 400px; 
+    text-align: center;
+    line-height: 100px;
+    transition: background-color 0.3s ease;
+}
+
+.social-button img {
+    width: 400px;
+    height: 400px; 
+    vertical-align: center;
+}
+
+/*FOOTER*/
+footer {
+    text-align: center;
+}
